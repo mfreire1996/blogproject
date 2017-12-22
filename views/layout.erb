@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bloggers Unite!!</title>
+	<link rel="stylesheet" type="text/css" href="/style.css">
+	<meta charset="utf-8"> 
+
+</head>
+<body>
+	<ul class="nav">
+
+<li><a href="/signup">Sign up</a></li>
+<li><a href="/signin">Sign in</a></li>
+<li><a href="/logout">Log out</a></li>
+<li><a href="/edit">Edit account</a></li>
+<li><a href="/edit">Delete account</a></li>
+
+</ul>
+	
+	<div class="container">
+	<img src="images/stadium.jpg" alt="stadium" style="width:100%;" >
+	<div class="centered"><h1>We are bloggers bum ba dum bum bum bum bum</h1></div>
+
+</div>
+
+<form method="post" action="/signup">
+	<label for="email">E-mail</label>
+	<input type="text" name="email">
+	<label for="password">Password</label>
+	<input type="text" name="password">
+	<button type="submit">Sign Up</button>
+</form>
+	
+<form method="post" action="/signin">
+	<label for="email">E-mail</label>
+	<input type="text" name="email">	
+	<label for="password">Password</label>
+	<input type="text" name="password">
+	<button type="submit">Sign in</button>
+</form>
+
+</body>
+</html>
